@@ -97,3 +97,17 @@ span:hover{
     color: aliceblue;
     border-radius: 50%;
 }
+.clear-btn{
+    
+    background-color: #002765;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+}
+.clear-btn:hover{
+    background-color: wheat;
+    color: #002765;
+    transition: 1s;
+}

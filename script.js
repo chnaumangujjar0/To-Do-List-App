@@ -1,7 +1,7 @@
 let inputTask=document.querySelector("input")
 let addBtn=document.querySelector("button")
 let listContainer=document.querySelector(".list-container")
-
+let clearTask=document.querySelector(".clear-btn")
 addBtn.addEventListener("click",(e)=>{
    if(inputTask.value === ""){
     alert("Enter a Task")
@@ -49,4 +49,7 @@ showData();
 function removeData(){
     localStorage.clear();
 }
-// removeData();
+clearTask.addEventListener("click",()=>{
+    removeData();
+     listContainer.innerHTML = "";
+})
