@@ -3,7 +3,9 @@
 <h2>This is a simple and interactive To-Do List application built using HTML, CSS, and JavaScript. The app helps users manage their daily tasks efficiently by allowing them to add, mark, and delete tasks.</h2>
 
 The application uses Local Storage to store tasks in the browser, which means all tasks remain saved even after refreshing or closing the browser. This ensures a persistent and smooth user experience without using any backend or database.
-
+---
+## 🌐 Live Demo
+[Click here to view the project](https://chnaumangujjar0.github.io/To-Do-List-App)
 <h1>✨ Features</h1>
 
 Add new tasks easily
